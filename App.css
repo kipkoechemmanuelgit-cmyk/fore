@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #fac60bec, #b3f458, #4d02fc);
+  color: #050505;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background: #250168;
+  color: rgb(251, 249, 249);
+  padding: 40px 20px;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0 4px 10px rgba(240, 17, 17, 0.954);
+}
+
+.lesson-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.lesson-card {
+  background: #e5ef75e7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 15px 10px rgb(252, 3, 24);
+  transition: transform 0.2s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer a {
+  color: #00ff99;
+  font-weight: bold;
+  text-decoration: none;
+}
